@@ -21,6 +21,10 @@ import {
   faculty,
   jokes,
   quotes,
+  jokes_app,
+  quote_app,
+  todolist,
+  binkeyit
 } from "../assets";
 
 export const navLinks = [
@@ -120,7 +124,7 @@ const projects = [
       { name: "html", color: "blue-text-gradient" },
       { name: "css", color: "pink-text-gradient" },
     ],
-    image: todo,
+    image: todolist,
     source_code_link: "https://github.com/bansivachhani/todo-list-app",
   },
   {
@@ -132,22 +136,22 @@ const projects = [
       { name: "nodejs", color: "green-text-gradient" },
       { name: "mongodb", color: "pink-text-gradient" },
     ],
-    image: binkey,
+    image: binkeyit,
     source_code_link: "https://github.com/bansivachhani/Binkey-it",
   },
-  {
-    name: "Faculty Rating & Leave System",
-    description:
-      "Web platform where students can rate faculty and faculty can apply for leave with real-time admin control and analytics.",
-    tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "typescript", color: "green-text-gradient" },
-      { name: "postgresql", color: "pink-text-gradient" },
-    ],
-    image: faculty,
-    source_code_link:
-      "https://github.com/bansivachhani/faculty-rating-and-leave-system",
-  },
+  // {
+  //   name: "Faculty Rating & Leave System",
+  //   description:
+  //     "Web platform where students can rate faculty and faculty can apply for leave with real-time admin control and analytics.",
+  //   tags: [
+  //     { name: "react", color: "blue-text-gradient" },
+  //     { name: "typescript", color: "green-text-gradient" },
+  //     { name: "postgresql", color: "pink-text-gradient" },
+  //   ],
+  //   image: faculty,
+  //   source_code_link:
+  //     "https://github.com/bansivachhani/faculty-rating-and-leave-system",
+  // },
   {
     name: "Quote Generator App",
     description:
@@ -157,7 +161,7 @@ const projects = [
       { name: "html", color: "blue-text-gradient" },
       { name: "css", color: "pink-text-gradient" },
     ],
-    image: quotes,
+    image: quote_app,
     source_code_link: "https://github.com/bansivachhani/Quote_APP",
   },
   {
@@ -169,7 +173,7 @@ const projects = [
       { name: "html", color: "blue-text-gradient" },
       { name: "css", color: "pink-text-gradient" },
     ],
-    image: jokes,
+    image: jokes_app,
     source_code_link: "https://github.com/bansivachhani/jokes-web",
   },
 ];
