@@ -39,6 +39,11 @@ import faculty from "./faculty.jpg";
 import jokes from "./jokes.png";
 import quotes from "./quotes.jpg";
 
+import binkeyit from "./projects/binkeyit.png";
+import jokes_app from "./projects/jokes_app.png";
+import quote_app from "./projects/quote_app.png";
+import todolist from "./projects/todolist.png";
+
 export {
   logo,
   backend,
@@ -75,4 +80,8 @@ export {
   quotes,
   python,
   java,
+  binkeyit,
+  jokes_app,
+  quote_app,
+  todolist,
 };
