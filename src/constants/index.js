@@ -22,37 +22,16 @@ import {
 } from "../assets";
 
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+  { id: "about", title: "About" },
+  { id: "work", title: "Work" },
+  { id: "contact", title: "Contact" },
 ];
 
 const services = [
-  {
-    title: "Full Stack Web Developer",
-    icon: web,
-  },
-  {
-    title: "React.js Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer (Node.js)",
-    icon: backend,
-  },
-  {
-    title: "Database & API Integrator",
-    icon: creator,
-  },
+  { title: "Full Stack Web Developer", icon: web },
+  { title: "React.js Developer", icon: mobile },
+  { title: "Backend Developer (Node.js)", icon: backend },
+  { title: "Database & API Integrator", icon: creator },
 ];
 
 const technologies = [

@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -30,6 +30,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import binkey from "./binkey.png";
+import todo from "./todo.webp";
+import faculty from "./faculty.jpg";
+import jokes from "./jokes.png";
+import quotes from "./quotes.jpg";
+
 export {
   logo,
   backend,
@@ -59,4 +65,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  binkey,
+  todo,
+  faculty,
+  jokes,
+  quotes,
 };
