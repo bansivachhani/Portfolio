@@ -8,21 +8,17 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  binkey,
+  todo,
+  faculty,
+  jokes,
+  quotes
 } from "../assets";
 
 export const navLinks = [
@@ -42,129 +38,72 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React.js Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Developer (Node.js)",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Database & API Integrator",
     icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  { name: "HTML 5", icon: html },
+  { name: "CSS 3", icon: css },
+  { name: "JavaScript", icon: javascript },
+  { name: "TypeScript", icon: typescript },
+  { name: "React JS", icon: reactjs },
+  { name: "Tailwind CSS", icon: tailwind },
+  { name: "Node JS", icon: nodejs },
+  { name: "MongoDB", icon: mongodb },
+  { name: "Git", icon: git },
+  { name: "Figma", icon: figma },
+  { name: "Three JS", icon: threejs },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Developer - To-Do List App",
+    company_name: "Personal Project",
+    icon: todo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built a task management app using HTML, CSS, and JavaScript.",
+      "Implemented localStorage to persist tasks between sessions.",
+      "Enabled add/edit/delete and mark-as-complete functionalities.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full Stack Developer - Binkey It",
+    company_name: "Personal Project",
+    icon: binkey,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2025 - June 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a full-stack e-commerce grocery application using React.js and Node.js.",
+      "Implemented product listings, cart system, and authentication.",
+      "Integrated MongoDB for database management and REST APIs.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Team Lead - Faculty Rating & Leave System",
+    company_name: "Group Project",
+    icon: faculty,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Dec 2024 - Apr 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed a MERN-based platform for student-faculty interaction and leave tracking.",
+      "Handled faculty rating UI and backend leave logic with PostgreSQL.",
+      "Led a team of developers and contributed TypeScript + React.js codebase.",
     ],
   },
 ];
@@ -172,93 +111,82 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Working with Bansi was an absolute pleasure. Her attention to detail and passion for full-stack development is exceptional.",
+    name: "Team Member",
+    designation: "Backend Developer",
+    company: "Faculty Rating System",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
+  },
+  {
+    testimonial:
+      "Bansi took initiative and led the UI implementation during our group project, ensuring responsive design and clean user flow.",
+    name: "Project Lead",
+    designation: "Team Leader",
+    company: "Binkey It",
+    image: "https://randomuser.me/api/portraits/men/7.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "To-Do List App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A lightweight task management web app allowing users to add, edit, mark complete, and delete tasks using localStorage.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "javascript", color: "yellow-text-gradient" },
+      { name: "html", color: "blue-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: todo,
+    source_code_link: "https://github.com/bansivachhani/todo-list-app",
   },
   {
-    name: "Job IT",
+    name: "Binkey It (Grocery App)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Full-stack MERN-based e-commerce application with product catalog, cart functionality, and secure user login.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "mongodb", color: "pink-text-gradient" },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: binkey,
+    source_code_link: "https://github.com/bansivachhani/Binkey-it",
   },
   {
-    name: "Trip Guide",
+    name: "Faculty Rating & Leave System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web platform where students can rate faculty and faculty can apply for leave with real-time admin control and analytics.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "typescript", color: "green-text-gradient" },
+      { name: "postgresql", color: "pink-text-gradient" },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: faculty,
+    source_code_link: "https://github.com/bansivachhani/faculty-rating-and-leave-system",
+  },
+  {
+    name: "Quote Generator App",
+    description:
+      "A quote generator app that fetches new quotes on every click and allows users to tweet them directly on Twitter.",
+    tags: [
+      { name: "javascript", color: "yellow-text-gradient" },
+      { name: "html", color: "blue-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
+    ],
+    image: quotes,
+    source_code_link: "https://github.com/bansivachhani/Quote_APP",
+  },
+  {
+    name: "Jokes Reader App",
+    description:
+      "A simple jokes app where users can read fun, manually added jokes. New joke shown each time you click next.",
+    tags: [
+      { name: "javascript", color: "yellow-text-gradient" },
+      { name: "html", color: "blue-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
+    ],
+    image: jokes,
+    source_code_link: "https://github.com/bansivachhani/jokes-web",
   },
 ];
 
