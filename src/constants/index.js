@@ -14,11 +14,13 @@ import {
   git,
   figma,
   threejs,
+  python,
+  java,
   binkey,
   todo,
   faculty,
   jokes,
-  quotes
+  quotes,
 } from "../assets";
 
 export const navLinks = [
@@ -45,7 +47,9 @@ const technologies = [
   { name: "MongoDB", icon: mongodb },
   { name: "Git", icon: git },
   { name: "Figma", icon: figma },
-  { name: "Three JS", icon: threejs },
+  // { name: "Three JS", icon: threejs },
+  { name: "Python", icon: python },
+  { name: "Java", icon: java },
 ];
 
 const experiences = [
@@ -141,7 +145,8 @@ const projects = [
       { name: "postgresql", color: "pink-text-gradient" },
     ],
     image: faculty,
-    source_code_link: "https://github.com/bansivachhani/faculty-rating-and-leave-system",
+    source_code_link:
+      "https://github.com/bansivachhani/faculty-rating-and-leave-system",
   },
   {
     name: "Quote Generator App",
