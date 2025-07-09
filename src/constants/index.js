@@ -98,22 +98,27 @@ const experiences = [
 
 const testimonials = [
   {
+    name: "Bhakti Parsaniya",
     testimonial:
-      "Working with Bansi was an absolute pleasure. Her attention to detail and passion for full-stack development is exceptional.",
-    name: "Team Member",
-    designation: "Backend Developer",
-    company: "Faculty Rating System",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Bansi is incredibly dedicated and detail-oriented. Her ability to take ownership of tasks and deliver them flawlessly is inspiring.",
   },
   {
+    name: "Mahi Patel",
     testimonial:
-      "Bansi took initiative and led the UI implementation during our group project, ensuring responsive design and clean user flow.",
-    name: "Project Lead",
-    designation: "Team Leader",
-    company: "Binkey It",
-    image: "https://randomuser.me/api/portraits/men/7.jpg",
+      "Working with Bansi has always been smooth and efficient. She brings creativity and problem-solving skills to every discussion.",
+  },
+  {
+    name: "Prachi Bhawanani",
+    testimonial:
+      "Bansi is a great teammate who’s always ready to help others. Her expertise in React and backend systems makes her a complete developer.",
+  },
+  {
+    name: "Bhakti Kansagara",
+    testimonial:
+      "Bansi’s commitment to learning and improving is commendable. She tackles every challenge with a positive attitude and smart approach.",
   },
 ];
+
 
 const projects = [
   {
