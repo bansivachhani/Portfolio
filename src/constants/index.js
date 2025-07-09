@@ -24,7 +24,8 @@ import {
   jokes_app,
   quote_app,
   todolist,
-  binkeyit
+  binkeyit,
+  facultyy
 } from "../assets";
 
 export const navLinks = [
@@ -139,19 +140,19 @@ const projects = [
     image: binkeyit,
     source_code_link: "https://github.com/bansivachhani/Binkey-it",
   },
-  // {
-  //   name: "Faculty Rating & Leave System",
-  //   description:
-  //     "Web platform where students can rate faculty and faculty can apply for leave with real-time admin control and analytics.",
-  //   tags: [
-  //     { name: "react", color: "blue-text-gradient" },
-  //     { name: "typescript", color: "green-text-gradient" },
-  //     { name: "postgresql", color: "pink-text-gradient" },
-  //   ],
-  //   image: faculty,
-  //   source_code_link:
-  //     "https://github.com/bansivachhani/faculty-rating-and-leave-system",
-  // },
+  {
+    name: "Faculty Rating & Leave System",
+    description:
+      "Web platform where students can rate faculty and faculty can apply for leave with real-time admin control and analytics.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "typescript", color: "green-text-gradient" },
+      { name: "postgresql", color: "pink-text-gradient" },
+    ],
+    image: facultyy,
+    source_code_link:
+      "https://github.com/bansivachhani/faculty-rating-and-leave-system",
+  },
   {
     name: "Quote Generator App",
     description:
