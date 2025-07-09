@@ -25,7 +25,7 @@ import {
   quote_app,
   todolist,
   binkeyit,
-  facultyy
+  facultyy,
 } from "../assets";
 
 export const navLinks = [
@@ -98,7 +98,7 @@ const experiences = [
 
 const testimonials = [
   {
-    name: "Bhakti Parsaniya",
+    name: "Bhakti Patel",
     testimonial:
       "Bansi is incredibly dedicated and detail-oriented. Her ability to take ownership of tasks and deliver them flawlessly is inspiring.",
   },
@@ -112,13 +112,7 @@ const testimonials = [
     testimonial:
       "Bansi is a great teammate who’s always ready to help others. Her expertise in React and backend systems makes her a complete developer.",
   },
-  {
-    name: "Bhakti Kansagara",
-    testimonial:
-      "Bansi’s commitment to learning and improving is commendable. She tackles every challenge with a positive attitude and smart approach.",
-  },
 ];
-
 
 const projects = [
   {
