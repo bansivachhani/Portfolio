@@ -53,7 +53,7 @@ const experiences = [
     title: "Frontend Developer - To-Do List App",
     company_name: "Personal Project",
     icon: todo,
-    iconBg: "#383E56",
+    iconBg: "#383E86",
     date: "May 2024",
     points: [
       "Built a task management app using HTML, CSS, and JavaScript.",
@@ -65,7 +65,7 @@ const experiences = [
     title: "Full Stack Developer - Binkey It",
     company_name: "Personal Project",
     icon: binkey,
-    iconBg: "#E6DEDD",
+    iconBg: "#E6DE25",
     date: "Jan 2025 - June 2025",
     points: [
       "Developed a full-stack e-commerce grocery application using React.js and Node.js.",
@@ -77,7 +77,7 @@ const experiences = [
     title: "Team Lead - Faculty Rating & Leave System",
     company_name: "Group Project",
     icon: faculty,
-    iconBg: "#383E56",
+    iconBg: "#FF69B4",
     date: "Dec 2024 - Apr 2025",
     points: [
       "Designed a MERN-based platform for student-faculty interaction and leave tracking.",
