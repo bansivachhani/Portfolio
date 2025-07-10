@@ -34,7 +34,7 @@ Welcome to my personal developer portfolio website, built with **React.js**, **T
 
 | Hero Section | Projects | Contact |
 |--------------|----------|---------|
-| ![Hero](./public/screens/hero.png) | ![Projects](./public/screens/projects.png) | ![Contact](./public/screens/contact.png) |
+| ![About](./public/About.png) |  ![Work](./public/work.png) | ![Contact](./public/contact.png) |
 
 ---
 
