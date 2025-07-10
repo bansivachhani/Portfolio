@@ -1,12 +1,47 @@
-# React + Vite
+# 💼 Bansi Vachhani - Full Stack Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio website, built with **React.js**, **Tailwind CSS**, **Three.js**, and **Framer Motion**. This portfolio showcases my skills, projects, and experiences as a Full-Stack Web Developer.
 
-Currently, two official plugins are available:
+![Portfolio Banner](./public/preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✨ Interactive Hero Section with 3D animations
+- 🧠 About section highlighting skills and background
+- 💼 Experience timeline with key responsibilities
+- 🛠️ Tech Stack with icons
+- 📂 Project showcase with live previews and source code links
+- 🗣️ Testimonials from collaborators
+- 📬 Contact form powered by **EmailJS**
+- 🌍 EarthCanvas animation using Three.js
+
+---
+
+## 🛠️ Built With
+
+- [React.js](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Three.js](https://threejs.org/)
+- [EmailJS](https://www.emailjs.com/)
+- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
+
+---
+
+## 📸 Screenshots
+
+| Hero Section | Projects | Contact |
+|--------------|----------|---------|
+| ![Hero](./public/screens/hero.png) | ![Projects](./public/screens/projects.png) | ![Contact](./public/screens/contact.png) |
+
+---
+
+## 🧑‍💻 How to Run Locally
+
+```bash
+git clone https://github.com/bansivachhani/your-portfolio.git
+cd your-portfolio
+npm install
+npm run dev
