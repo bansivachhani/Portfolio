@@ -16,11 +16,11 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Bansi</span>
+            Hi, I'm <span className='text-[#915EFF]'>Bansi Vachhani</span>
           </h1>
          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I build full-stack apps using React, Node.js & MongoDB, <br className='sm:block hidden' />
-          and craft immersive UIs with Tailwind CSS and Three.js.
+          I build full-stack apps using React, Node.js, Express.js & MongoDB, <br className='sm:block hidden' />
+          and craft immersive UIs with Tailwind CSS.
         </p>
 
         </div>
