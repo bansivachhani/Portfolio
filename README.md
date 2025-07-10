@@ -32,9 +32,9 @@ Welcome to my personal developer portfolio website, built with **React.js**, **T
 
 ## 📸 Screenshots
 
-| Hero Section | Projects | Contact |
+| About | Projects | Contact |
 |--------------|----------|---------|
-| ![About](./public/About.png) |  ![Work](./public/work.png) | ![Contact](./public/contact.png) |
+| ![About](./public/about.png) |  ![Work](./public/work.png) | ![Contact](./public/contact.png) |
 
 ---
 
