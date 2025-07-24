@@ -44,6 +44,8 @@ import jokes_app from "./projects/jokes_app.png";
 import quote_app from "./projects/quote_app.png";
 import todolist from "./projects/todolist.png";
 import facultyy from "./projects/faculty.png"
+import weather from './projects/weather.jpg' // if it's .png instead
+
 
 export {
   logo,
@@ -85,5 +87,6 @@ export {
   jokes_app,
   quote_app,
   todolist,
-  facultyy
+  facultyy,
+  weather
 };

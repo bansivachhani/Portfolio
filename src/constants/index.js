@@ -13,20 +13,19 @@ import {
   mongodb,
   git,
   figma,
-  threejs,
   python,
   java,
   binkey,
   todo,
   faculty,
-  jokes,
-  quotes,
   jokes_app,
   quote_app,
   todolist,
   binkeyit,
-  facultyy,
+  weather,
+  
 } from "../assets";
+
 
 export const navLinks = [
   { id: "about", title: "About" },
@@ -114,23 +113,157 @@ const testimonials = [
   },
 ];
 
+// const projects = [
+//   {
+//     name: "To-Do List App",
+//     description:
+//       "A lightweight task management web app allowing users to add, edit, mark complete, and delete tasks using localStorage.",
+//     tags: [
+//       { name: "javascript", color: "yellow-text-gradient" },
+//       { name: "html", color: "blue-text-gradient" },
+//       { name: "css", color: "pink-text-gradient" },
+//     ],
+//     image: todolist,
+//     source_code_link: "https://github.com/bansivachhani/todo-list-app",
+//   },
+//   {
+//     name: "Binkey It (Grocery App)",
+//     description:
+//       "Full-stack MERN-based e-commerce application with product catalog, cart functionality, and secure user login.",
+//     tags: [
+//       { name: "react", color: "blue-text-gradient" },
+//       { name: "nodejs", color: "green-text-gradient" },
+//       { name: "mongodb", color: "pink-text-gradient" },
+//     ],
+//     image: binkeyit,
+//     source_code_link: "https://github.com/bansivachhani/Binkey-it",
+//   },
+//   {
+//     name: "Faculty Rating & Leave System",
+//     description:
+//       "Web platform where students can rate faculty and faculty can apply for leave with real-time admin control and analytics.",
+//     tags: [
+//       { name: "react", color: "blue-text-gradient" },
+//       { name: "typescript", color: "green-text-gradient" },
+//       { name: "postgresql", color: "pink-text-gradient" },
+//     ],
+//     image: facultyy,
+//     source_code_link:
+//       "https://github.com/bansivachhani/faculty-rating-and-leave-system",
+//   },
+//   {
+//     name: "Quote Generator App",
+//     description:
+//       "A quote generator app that fetches new quotes on every click and allows users to tweet them directly on Twitter.",
+//     tags: [
+//       { name: "javascript", color: "yellow-text-gradient" },
+//       { name: "html", color: "blue-text-gradient" },
+//       { name: "css", color: "pink-text-gradient" },
+//     ],
+//     image: quote_app,
+//     source_code_link: "https://github.com/bansivachhani/Quote_APP",
+//   },
+//   {
+//     name: "Jokes Reader App",
+//     description:
+//       "A simple jokes app where users can read fun, manually added jokes. New joke shown each time you click next.",
+//     tags: [
+//       { name: "javascript", color: "yellow-text-gradient" },
+//       { name: "html", color: "blue-text-gradient" },
+//       { name: "css", color: "pink-text-gradient" },
+//     ],
+//     image: jokes_app,
+//     source_code_link: "https://github.com/bansivachhani/jokes-web",
+//   },
+// ];
+
+// const projects = [
+//   {
+//     name: "Binkey It (Blinkit Clone)",
+//     description:
+//       "A full-stack grocery delivery clone app with authentication, product filtering, cart functionality, and responsive UI.",
+//     tags: [
+//       { name: "react", color: "blue-text-gradient" },
+//       { name: "nodejs", color: "green-text-gradient" },
+//       { name: "mongodb", color: "pink-text-gradient" },
+//     ],
+//     image: binkeyit,
+//     source_code_link: "https://github.com/bansivachhani/Binkey-it",
+//     live_demo_link: "https://www.youtube.com/watch?v=slN124MPVrc",
+//   },
+//   {
+//     name: "To-Do List App",
+//     description:
+//       "Minimalistic React-based task manager with CRUD operations and localStorage persistence.",
+//     tags: [
+//       { name: "react", color: "blue-text-gradient" },
+//       { name: "javascript", color: "yellow-text-gradient" },
+//       { name: "css", color: "pink-text-gradient" },
+//     ],
+//     image: todolist,
+//     source_code_link: "https://github.com/bansivachhani/todo-list-app",
+//     live_demo_link: "https://todo-list-app-alpha-lyart.vercel.app/",
+//   },
+//   {
+//     name: "Jokes App",
+//     description:
+//       "Fun web app that displays jokes from APIs and cycles through new ones with smooth animations.",
+//     tags: [
+//       { name: "react", color: "blue-text-gradient" },
+//       { name: "api", color: "green-text-gradient" },
+//       { name: "css", color: "pink-text-gradient" },
+//     ],
+//     image: jokes_app,
+//     source_code_link: "https://github.com/bansivachhani/Joke-Generator",
+//     live_demo_link: "https://joke-generator-lake.vercel.app/",
+//   },
+//   {
+//     name: "Quote Generator App",
+//     description:
+//       "A quote app that fetches motivational quotes and lets users tweet them directly.",
+//     tags: [
+//       { name: "react", color: "blue-text-gradient" },
+//       { name: "api", color: "green-text-gradient" },
+//       { name: "css", color: "pink-text-gradient" },
+//     ],
+//     image: quote_app,
+//     source_code_link: "https://github.com/bansivachhani/quote-generator-",
+//     live_demo_link: "https://quote-generator-liart-chi.vercel.app/",
+//   },
+//   {
+//     name: "Quiz Application",
+//     description:
+//       "Interactive quiz app with score tracking, category selection, and analytics.",
+//     tags: [
+//       { name: "react", color: "blue-text-gradient" },
+//       { name: "javascript", color: "yellow-text-gradient" },
+//       { name: "css", color: "pink-text-gradient" },
+//     ],
+//     image:
+//       "https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=600",
+//     source_code_link: "https://github.com/bansivachhani/quizapp",
+//     live_demo_link: "https://quizapp-zeta-sand.vercel.app/",
+//   },
+//   {
+//     name: "Weather App",
+//     description:
+//       "Current weather + 5-day forecast app using OpenWeatherMap API with unit conversion and clean UI.",
+//     tags: [
+//       { name: "react", color: "blue-text-gradient" },
+//       { name: "api", color: "green-text-gradient" },
+//       { name: "css", color: "pink-text-gradient" },
+//     ],
+//     image: weatherImg,
+//     source_code_link: "https://github.com/bansivachhani/weather-app",
+//     live_demo_link: "https://weather-app-lime-omega-94.vercel.app/",
+//   },
+// ];
+
 const projects = [
   {
-    name: "To-Do List App",
+    name: "Binkey It (Blinkit Clone)",
     description:
-      "A lightweight task management web app allowing users to add, edit, mark complete, and delete tasks using localStorage.",
-    tags: [
-      { name: "javascript", color: "yellow-text-gradient" },
-      { name: "html", color: "blue-text-gradient" },
-      { name: "css", color: "pink-text-gradient" },
-    ],
-    image: todolist,
-    source_code_link: "https://github.com/bansivachhani/todo-list-app",
-  },
-  {
-    name: "Binkey It (Grocery App)",
-    description:
-      "Full-stack MERN-based e-commerce application with product catalog, cart functionality, and secure user login.",
+      "A full-stack grocery delivery clone app with authentication, product filtering, cart functionality, and responsive UI.",
     tags: [
       { name: "react", color: "blue-text-gradient" },
       { name: "nodejs", color: "green-text-gradient" },
@@ -138,44 +271,76 @@ const projects = [
     ],
     image: binkeyit,
     source_code_link: "https://github.com/bansivachhani/Binkey-it",
+    live_demo_link: "https://www.youtube.com/watch?v=slN124MPVrc",
   },
   {
-    name: "Faculty Rating & Leave System",
+    name: "To-Do List App",
     description:
-      "Web platform where students can rate faculty and faculty can apply for leave with real-time admin control and analytics.",
+      "Minimalistic React-based task manager with CRUD operations and localStorage persistence.",
     tags: [
       { name: "react", color: "blue-text-gradient" },
-      { name: "typescript", color: "green-text-gradient" },
-      { name: "postgresql", color: "pink-text-gradient" },
+      { name: "javascript", color: "yellow-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
     ],
-    image: facultyy,
-    source_code_link:
-      "https://github.com/bansivachhani/faculty-rating-and-leave-system",
+    image: todolist,
+    source_code_link: "https://github.com/bansivachhani/todo-list-app",
+    live_demo_link: "https://todo-list-app-alpha-lyart.vercel.app/",
+  },
+  {
+    name: "Jokes App",
+    description:
+      "Fun web app that displays jokes from APIs and cycles through new ones with smooth animations.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "api", color: "green-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
+    ],
+    image: jokes_app,
+    source_code_link: "https://github.com/bansivachhani/Joke-Generator",
+    live_demo_link: "https://joke-generator-lake.vercel.app/",
   },
   {
     name: "Quote Generator App",
     description:
-      "A quote generator app that fetches new quotes on every click and allows users to tweet them directly on Twitter.",
+      "A quote app that fetches motivational quotes and lets users tweet them directly.",
     tags: [
-      { name: "javascript", color: "yellow-text-gradient" },
-      { name: "html", color: "blue-text-gradient" },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "api", color: "green-text-gradient" },
       { name: "css", color: "pink-text-gradient" },
     ],
     image: quote_app,
-    source_code_link: "https://github.com/bansivachhani/Quote_APP",
+    source_code_link: "https://github.com/bansivachhani/quote-generator-",
+    live_demo_link: "https://quote-generator-liart-chi.vercel.app/",
   },
   {
-    name: "Jokes Reader App",
+    name: "Quiz Application",
     description:
-      "A simple jokes app where users can read fun, manually added jokes. New joke shown each time you click next.",
+      "Interactive quiz app with score tracking, category selection, and analytics.",
     tags: [
+      { name: "react", color: "blue-text-gradient" },
       { name: "javascript", color: "yellow-text-gradient" },
-      { name: "html", color: "blue-text-gradient" },
       { name: "css", color: "pink-text-gradient" },
     ],
-    image: jokes_app,
-    source_code_link: "https://github.com/bansivachhani/jokes-web",
+    image:
+      "https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=600",
+    source_code_link: "https://github.com/bansivachhani/quizapp",
+    live_demo_link: "https://quizapp-zeta-sand.vercel.app/",
+  },
+  {
+    name: "Weather App",
+    description:
+      "Current weather + 5-day forecast app using OpenWeatherMap API with unit conversion and clean UI.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "api", color: "green-text-gradient" },
+      { name: "css", color: "pink-text-gradient" },
+    ],
+    image: weather,
+    source_code_link: "https://github.com/bansivachhani/weather-app",
+    live_demo_link: "https://weather-app-lime-omega-94.vercel.app/",
   },
 ];
+
+
 
 export { services, technologies, experiences, testimonials, projects };
